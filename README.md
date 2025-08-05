@@ -1,5 +1,5 @@
 # whole-foods-analysis-2025
-A full-stack data analyst project using Python, SQL, and Power BI
+A data-analyst on accruate customer services sales using Python, SQL, and Power BI
 # Whole Foods Sales Analysis (June 2025)
 
 This project simulates a real-world end-to-end data analyst case study for Whole Foods Market. It includes data generation, SQL integration, and business intelligence visualizations built using Python, MySQL, and Power BI Fabric.
