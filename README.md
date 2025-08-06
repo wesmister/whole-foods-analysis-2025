@@ -63,6 +63,16 @@ WholeFoods_Project_Summary.pdf # Detailed project summary
 
 ---
 
+# Finalized Charts & Graphs
+
+![Total Sales](PowerBI/Screenshot Simple 01.png)
+![Daily Sales Trend](PowerBI/Screenshot Simple 02.png)
+![Product By Total Sales](PowerBI/Screenshot Simple 03.png)
+![KPIs](PowerBI/Screenshot Simple 04.png)
+![Weekday vs Weekend Revenue](PowerBI/Screenshot In-Depth 01.png)
+![Daily Revenue By Department](PowerBI/Screenshot In-Depth 02.png)
+![Products Sold Every Day](PowerBI/Screenshot In-Depth 03.png)
+
 # Future Extensions
 
 - Add forecasting and regression using Python (e.g., `statsmodels`, `sklearn`)
