@@ -22,32 +22,28 @@ This project analyzes simulated daily sales data for Whole Foods in June 2025. T
 # Project Structure
 
 WholeFoods_Sales_Analysis_2025:
-
-'data/' —
-Contains all data files used in the project
-• 'WholeFoods_Sales_June2025.xlsx': Simulated Whole Foods daily sales data for June 2025
-• 'products_sold_every_day.csv': Used for advanced product frequency analysis in Power BI
-'python/' —
-Scripts for data simulation and MySQL integration
-• 'generate_sales_data.py': Python script to generate the sales dataset
-• 'import_mysql.py': Python script to insert the dataset into MySQL
-'sql/' —
-SQL scripts for database setup and analysis
-• 'create_database_and_table.sql': SQL statements to set up database and schema
-• 'insert_script_notes.sql': Notes related to data insertion steps
-• 'analysis_queries.sql': All SQL queries used to generate insights
-'powerbi/' —
-Dashboards and visuals
-• 'WholeFoods_Basic_Dashboard.pdf': Initial dashboard with KPIs and simple visuals
-• 'WholeFoods_Advanced_Insights.pdf': Second dashboard with in-depth analysis
-• 'screenshots/': PNG exports of key visuals from Power BI
+'Project Structure'
+'data/'
+•'WholeFoods_Sales_June2025.xlsx'
+•'products_sold_every_day.csv'
+'python/'
+•'generate_sales_data.py'
+•'import_mysql.py'
+'sql/'
+•'create_database_and_table.sql'
+•'insert_script_notes.sql'
+•'analysis_queries.sql'
+'powerbi/'
+•'WholeFoods_Basic_Dashboard.pdf'
+•'WholeFoods_Advanced_Insights.pdf'
+•'screenshots/'
 'daily_sales_trend.png'
 'weekday_vs_weekend.png'
 'kpi_cards.png'
 'products_sold_every_day_table.png'
-
-'README.md' —
-
+'docs/'
+•'WholeFoods_Project_Summary.docx'
+'README.md'
 ---
 
 # Key Business Insights
