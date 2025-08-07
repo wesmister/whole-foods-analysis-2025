@@ -48,8 +48,6 @@ Dashboards and visuals
 
 'README.md' —
 
-        
-
 ---
 
 # Key Business Insights
