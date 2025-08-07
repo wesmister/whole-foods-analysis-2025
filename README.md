@@ -23,19 +23,20 @@ This project analyzes simulated daily sales data for Whole Foods in June 2025. T
 
 WholeFoods_Sales_Analysis_2025:
 
-Python:
-generate_sales_data.py # Creates the simulated dataset
-import_mysql.py # Inserts data into MySQL
+Generated Data:
+WholeFoods_SalesJune2025.xlsx
 
-SQL:
+MySQL Queries:
 all_queries.sql # SQL queries for analysis
 
-PowerBI:
-simple_dashboard.pdf # Basic Power BI dashboard
-advanced_dashboard.pdf # Deep-dive Power BI dashboard
+PowerBI Dashboards:
+Customer_Sales_Analysis_June_2025 # Basic Power BI dashboard
+In-Depth Analysis of Whole Foods Sales # Deep-dive Power BI dashboard
+Products Sold Everyday Results
 
-Data:
-WholeFoods_Sales_June2025.xlsx # Final dataset used
+VS Code Python Scripts
+generate_sales_data.py
+import mysql.py
 
 ---
 
