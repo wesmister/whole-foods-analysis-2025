@@ -37,10 +37,6 @@ advanced_dashboard.pdf # Deep-dive Power BI dashboard
 Data:
 WholeFoods_Sales_June2025.xlsx # Final dataset used
 
-Docs:
-WholeFoods_Project_Summary.pdf # Detailed project summary
-
-
 ---
 
 # Key Business Insights
