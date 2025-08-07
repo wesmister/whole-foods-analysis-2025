@@ -23,20 +23,35 @@ This project analyzes simulated daily sales data for Whole Foods in June 2025. T
 
 WholeFoods_Sales_Analysis_2025:
 
-Generated Data:
-WholeFoods_SalesJune2025.xlsx
-
-MySQL Queries:
-all_queries.sql # SQL queries for analysis
-
-PowerBI Dashboards:
-Customer_Sales_Analysis_June_2025 # Basic Power BI dashboard
-In-Depth Analysis of Whole Foods Sales # Deep-dive Power BI dashboard
-Products Sold Everyday Results
-
-VS Code Python Scripts
-generate_sales_data.py
-import mysql.py
+WholeFoods-Sales-Analysis/
+│
+├── data/
+│   ├── WholeFoods_Sales_June2025.xlsx              # Simulated Whole Foods sales data
+│   └── products_sold_every_day.csv                 # CSV for advanced Power BI visual
+│
+├── python/
+│   ├── generate_sales_data.py                      # Python script to simulate sales data
+│   └── import_mysql.py                             # Python script to insert Excel data into MySQL
+│
+├── sql/
+│   ├── create_database_and_table.sql               # CREATE DATABASE + CREATE TABLE
+│   ├── insert_script_notes.sql                     # Insert logic and table notes
+│   └── analysis_queries.sql                        # All Day 4 + Day 6 MySQL queries
+│
+├── powerbi/
+│   ├── WholeFoods_Basic_Dashboard.pdf              # Export of initial dashboard with charts and KPIs
+│   ├── WholeFoods_Advanced_Insights.pdf            # Dashboard with advanced analysis visuals
+│   ├── screenshots/
+│   │   ├── daily_sales_trend.png
+│   │   ├── weekday_vs_weekend.png
+│   │   ├── kpi_cards.png
+│   │   └── products_sold_every_day_table.png
+│
+├── docs/
+│   └── WholeFoods_Project_Summary.docx             # Final project write-up for GitHub and interviews
+│
+├── README.md                                       # Clean overview: tools, steps, structure, instructions
+└── LICENSE                                         \
 
 ---
 
