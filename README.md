@@ -23,35 +23,32 @@ This project analyzes simulated daily sales data for Whole Foods in June 2025. T
 
 WholeFoods_Sales_Analysis_2025:
 
-WholeFoods-Sales-Analysis/
-│
-├── data/
-│   ├── WholeFoods_Sales_June2025.xlsx              # Simulated Whole Foods sales data
-│   └── products_sold_every_day.csv                 # CSV for advanced Power BI visual
-│
-├── python/
-│   ├── generate_sales_data.py                      # Python script to simulate sales data
-│   └── import_mysql.py                             # Python script to insert Excel data into MySQL
-│
-├── sql/
-│   ├── create_database_and_table.sql               # CREATE DATABASE + CREATE TABLE
-│   ├── insert_script_notes.sql                     # Insert logic and table notes
-│   └── analysis_queries.sql                        # All Day 4 + Day 6 MySQL queries
-│
-├── powerbi/
-│   ├── WholeFoods_Basic_Dashboard.pdf              # Export of initial dashboard with charts and KPIs
-│   ├── WholeFoods_Advanced_Insights.pdf            # Dashboard with advanced analysis visuals
-│   ├── screenshots/
-│   │   ├── daily_sales_trend.png
-│   │   ├── weekday_vs_weekend.png
-│   │   ├── kpi_cards.png
-│   │   └── products_sold_every_day_table.png
-│
-├── docs/
-│   └── WholeFoods_Project_Summary.docx             # Final project write-up for GitHub and interviews
-│
-├── README.md                                       # Clean overview: tools, steps, structure, instructions
-└── LICENSE                                         \
+'data/' —
+Contains all data files used in the project
+• 'WholeFoods_Sales_June2025.xlsx': Simulated Whole Foods daily sales data for June 2025
+• 'products_sold_every_day.csv': Used for advanced product frequency analysis in Power BI
+'python/' —
+Scripts for data simulation and MySQL integration
+• 'generate_sales_data.py': Python script to generate the sales dataset
+• 'import_mysql.py': Python script to insert the dataset into MySQL
+'sql/' —
+SQL scripts for database setup and analysis
+• 'create_database_and_table.sql': SQL statements to set up database and schema
+• 'insert_script_notes.sql': Notes related to data insertion steps
+• 'analysis_queries.sql': All SQL queries used to generate insights
+'powerbi/' —
+Dashboards and visuals
+• 'WholeFoods_Basic_Dashboard.pdf': Initial dashboard with KPIs and simple visuals
+• 'WholeFoods_Advanced_Insights.pdf': Second dashboard with in-depth analysis
+• 'screenshots/': PNG exports of key visuals from Power BI
+'daily_sales_trend.png'
+'weekday_vs_weekend.png'
+'kpi_cards.png'
+'products_sold_every_day_table.png'
+
+'README.md' —
+
+        
 
 ---
 
