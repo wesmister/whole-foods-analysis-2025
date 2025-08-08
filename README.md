@@ -1,74 +1,49 @@
-# whole-foods-analysis-2025
-A data-analyst on accruate customer services sales using Python, SQL, and Power BI
-# Whole Foods Sales Analysis (June 2025)
+# Retail Sales Insights Dashboard – Whole Foods Case Study
 
-This project simulates a real-world end-to-end data analyst case study for Whole Foods Market. It includes data generation, SQL integration, and business intelligence visualizations built using Python, MySQL, and Power BI Fabric.
+# Objective
+Analyze Whole Foods’ sales data to uncover trends, optimize product offerings, and improve operational decision-making. Focus areas include total revenue, sales by department, product performance, and daily patterns.
 
-# Project Overview
+# Tools & Skills
+- **Python**: Data generation, cleaning, and transformation (Pandas, Matplotlib)
+- **SQL (MySQL)**: Structured querying for business insights
+- **Power BI**: Dashboard creation with KPIs, slicers, and visual storytelling
+- **Excel**: Initial data handling and formatting
 
-This project analyzes simulated daily sales data for Whole Foods in June 2025. The workflow reflects a typical analytics pipeline — from raw data creation to database storage, querying, and interactive dashboard creation. It demonstrates skills in data engineering, SQL, analytics, and stakeholder communication.
+# Project Workflow
+1. **Data Creation & Cleaning**
+   - Generated simulated Whole Foods transaction data using Python
+   - Cleaned dataset: removed nulls/duplicates, standardized categories
 
----
+2. **SQL Analysis**
+   - Imported data into MySQL
+   - Wrote queries to analyze:
+     - Best-selling products
+     - Daily revenue trends
+     - Average department revenue
+     - Weekday vs. weekend performance
 
-# Tools & Technologies Used
+3. **Dashboard Development**
+   - Created an interactive Power BI dashboard
+   - Included KPIs (total sales, daily avg, top products)
+   - Added slicers for department, product, and date filtering
+   - Visuals: bar charts, line graphs, and dynamic cards
 
-- **Python (Pandas, MySQL Connector)**
-- **MySQL Workbench & Server**
-- **Power BI Fabric (Mac-compatible)**
-- **Excel (for intermediate file handling)**
+# Key Insights
+- **18% higher revenue on weekends** vs. weekdays
+- **Prepared Foods** department led in total sales
+- **10 products** were sold every day — reliable performers
+- **Tuesdays** had the lowest average revenue, suggesting a restocking day or marketing opportunity
 
----
+## 💡 Business Impact
+These insights could help Whole Foods:
+- Optimize staffing and inventory on high-traffic weekends
+- Promote high-performing products consistently sold daily
+- Consider marketing campaigns or promotions midweek
 
-# Project Structure
+## 📊 Dashboard Preview
+(Whole Foods Sales Analysis-Power BI.webarchive)
 
-WholeFoods_Sales_Analysis_2025:
-'Project Structure'
-'data/'
-•'WholeFoods_Sales_June2025.xlsx'
-•'products_sold_every_day.csv'
-'python/'
-•'generate_sales_data.py'
-•'import_mysql.py'
-'sql/'
-•'create_database_and_table.sql'
-•'insert_script_notes.sql'
-•'analysis_queries.sql'
-'powerbi/'
-•'WholeFoods_Basic_Dashboard.pdf'
-•'WholeFoods_Advanced_Insights.pdf'
-•'screenshots/'
-'daily_sales_trend.png'
-'weekday_vs_weekend.png'
-'kpi_cards.png'
-'products_sold_every_day_table.png'
-'docs/'
-•'WholeFoods_Project_Summary.docx'
-'README.md'
----
+> 🔗 **[Download Full Dashboard (PDF)](dashboards/WholeFoods_Dashboard.pdf)**  
+> 🧾 **[View SQL Queries](customer_sales_analysis.sql)**  
 
-# Key Business Insights
-
-- Top 10 best-selling products by revenue
-- Daily revenue trends across the month
-- Department-level sales analysis
-- Weekday vs. weekend sales behavior
-- Products sold consistently every day
-- KPIs including total revenue and average daily sales
-
----
-
-# How to Use
-
-1. **Data Simulation:** Run `generate_sales_data.py` to create the dataset.
-2. **Database Insertion:** Use `import_mysql.py` to load data into MySQL.
-3. **Run SQL Queries:** Refer to `all_queries.sql` to extract insights.
-4. **Visualize:** Open the PDF dashboards under `/PowerBI` to view visual summaries.
-
----
-
-# Future Extensions
-
-- Add forecasting and regression using Python (e.g., `statsmodels`, `sklearn`)
-- Include region or store-specific analysis
-- Automate data pipeline using Python scripts
-- Deploy interactive dashboards online
+## 🔍 Folder Structure
